@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fafafa;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a p {
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    font-size: 33px;
+    color: #3f649c;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, 0.2);
+  transition: all 235ms ease-in-out 0s;
+  color: #41403e;
+  color: var(--primary);
+  border-color: #41403e;
+  border-color: var(--primary);
+  background-color: #41403e;
+  background-color: var(--main-background);
+  align-self: center;
+  background-image: none;
+  border-style: solid;
+  border-width: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  outline: none;
+  padding: 0.75rem;
+  font-family: "Nanum Pen Script", cursive;
+
+  &:hover {
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 2px 8px 8px -5px rgba(0, 0, 0, 0.3);
+    background-color: #e3eeff;
+  }
+}
+
+nav {
+  width: 800px;
+  margin: auto;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #eee;
+  border-color: #41403e;
+  border-color: var(--primary);
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-style: solid;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-width: 2px;
+}
+
+.active {
+  font-weight: 600;
+  border-bottom: 3px solid #333;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 225px 15px;
+  border-top-right-radius: 15px 225px;
+}
